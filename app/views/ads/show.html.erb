@@ -1,0 +1,35 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Adcategory:</strong>
+  <%= @ad.adcategory %>
+</p>
+
+<p>
+  <strong>Adtype:</strong>
+  <%= @ad.adtype %>
+</p>
+
+<p>
+  <strong>Adtitle:</strong>
+  <%= @ad.adtitle %>
+</p>
+
+<p>
+  <strong>Addescription:</strong>
+  <%= @ad.addescription %>
+</p>
+
+<p>
+  <strong>Adprice:</strong>
+  <%= @ad.adprice %>
+</p>
+
+<div>
+ <% @ad.avatars.each do |avatar| %>
+  <%= image_tag(avatar)  %>
+ <% end %>
+</div>
+
+<%= link_to 'Edit', edit_ad_path(@ad) %> |
+<%= link_to 'Back', ads_path %>

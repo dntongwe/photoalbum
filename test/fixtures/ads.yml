@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  adcategory: MyString
+  adtype: MyString
+  adtitle: MyString
+  addescription: MyText
+  adprice: 1
+
+two:
+  adcategory: MyString
+  adtype: MyString
+  adtitle: MyString
+  addescription: MyText
+  adprice: 1

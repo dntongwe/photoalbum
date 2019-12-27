@@ -1,0 +1,14 @@
+development:
+  adapter: postgresql
+  encoding: unicode
+  database: postgres
+  pool: 5
+
+
+
+test:
+  adapter: postgresql
+  encoding: unicode
+  database: multiphotos_test
+  pool: 5
+
